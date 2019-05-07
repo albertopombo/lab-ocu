@@ -14,7 +14,7 @@ jobs:
           environment:
               NODE_ENV: test
               BASE_API_URL: https://localhost:8081/
-          command: 'npm build'
+          command: 'npm run build'
       - run:
           name: install
           command: 'npm test'
